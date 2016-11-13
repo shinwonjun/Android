@@ -1,4 +1,4 @@
-package com.ebookfrenzy.testapplication;
+package com.ebookfrenzy.testapplication.object;
 
 import android.graphics.drawable.Drawable;
 import android.widget.ImageView;
@@ -9,7 +9,7 @@ import java.util.Date;
  */
 public class Item {
 
-    public ImageView mIcon;
+    public String mIcon;
     public String mTitle;
     public String mDate;
 
